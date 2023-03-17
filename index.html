@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -27,19 +28,24 @@
         <div class="contenedor">
         
         
-            <div class="menu">
-            <p class="G"></p>
-            <nav>
-                <ul>
+          <nav>
+            <div class="logo"><h1></h1></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
                     <il><a class="conf-menu" href="#sobre-mi">Sobre mi</a></il>
-                    <il><a class="conf-menu" href="#cover">Mi trabajo</a></il>
-                    <il><a class="conf-menu" href="#servicios">Servicios</a></il>
-                    <il><a class="conf-menu" href="#por">¿Por que trabajar conmigo?</a></il>
-                    <il><a class="conf-menu" href="#blog">Blog</a></il>
-                    <il><a class="conf-menu" href="#contacto">Contacto</a></il>
-                </ul>
-            </nav>
-        </div> 
+                    <il><a href="#" class="conf-menu" href="#cover">Mi trabajo</a></il>
+                    <il><a href="#" class="conf-menu" href="#servicios">Servicios</a></il>
+                    <il><a href="#" class="conf-menu" href="#por">¿Por que trabajar conmigo?</a></il>
+                    <il><a href="#" class="conf-menu" href="#blog">Blog</a></il>
+                    <il><a href="#" class="conf-menu" href="#contacto">Contacto</a></il>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <span class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </span>
+            </ul>
+        </nav>
         
         <div class="titular">
             <h1>GABRIEL RODRÍGUEZ</h1>
@@ -255,7 +261,7 @@
 
     </section>
 
-
+    <script src="./app.js"></script>
 </body>
 
 
