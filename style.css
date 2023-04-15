@@ -24,8 +24,9 @@ nav .mainMenu il a {
   transition: 0.2s ease;
 }
 nav .mainMenu il a:hover {
-  background: #FFDF47;
+  background: #f7f7f7c0;
 }
+
 nav .openMenu {
   font-size: 2rem;
   margin: 20px;
@@ -167,6 +168,11 @@ h2{
     padding: 20px 30px 20px 30px;
     font-weight: bold;
     border-radius: 5%;
+}
+
+.tre:active{
+  color: white;
+  background-color: #0a1a2a;
 }
 
 h3{
