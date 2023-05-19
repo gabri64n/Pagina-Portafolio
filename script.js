@@ -1,4 +1,59 @@
-//Carousel
+//Animaciones
+window.sr= ScrollReveal();
+sr.reveal('.contenedor', {
+	duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+sr.reveal('.titular', {
+	duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+sr.reveal('.sobre-mi', {
+	duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+sr.reveal('.potato', {
+	duration: 2000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('.ser', {
+	duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+sr.reveal('.contenedor-porque', {
+	duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('.contenedor-publicacion', {
+	duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('.publicaciones', {
+	duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('.boton', {
+	duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+});
+// carousel
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");

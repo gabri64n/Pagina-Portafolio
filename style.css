@@ -27,6 +27,7 @@ nav .mainMenu il a:hover {
   background: #f7f7f7c0;
 }
 
+/*hambur*/
 nav .openMenu {
   font-size: 2rem;
   margin: 20px;
@@ -131,6 +132,7 @@ nav .logo {
     text-align: center;
     margin-top: 200px;
 }
+
 
 header{
     background: url(imagen.png.jpg);
@@ -501,7 +503,7 @@ h3{
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: #5C7FC0;
   }
 
 /*responsive*/
