@@ -7,6 +7,7 @@ nav {
   justify-content: space-between;
   
 }
+
 nav .mainMenu {
   display: flex;
   list-style: none;
@@ -57,7 +58,7 @@ nav .logo {
 
 /* responsive hamburguer */
 
-@media (max-width: 800px) and (max-width: 1080px) {
+@media (max-width: 800px) {
   nav .mainMenu {
     height: 100vh;
     position: fixed;

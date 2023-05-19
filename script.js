@@ -1,10 +1,5 @@
 //Animaciones
 window.sr= ScrollReveal();
-sr.reveal('.contenedor', {
-	duration: 3000,
-    origin: 'left',
-    distance: '-100px'
-});
 
 sr.reveal('.titular', {
 	duration: 3000,
