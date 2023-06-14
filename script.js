@@ -48,6 +48,13 @@ sr.reveal('.boton', {
     origin: 'left',
     distance: '-100px'
 });
+
+sr.reveal('.contenedor-Acerca', {
+	duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
 // carousel
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
