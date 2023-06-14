@@ -220,40 +220,6 @@ body{
     background-color: #5C7FC0;
   }
 
-  /*Tarjetas*/
-.sub-cont1{
-	background-color: #2B374B;
-	color: white;
-	border-radius: 10px;
-	margin: 100px;
-}
-
-img{
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 50px;
-	
-}
-
-.ra{
-	display: flex;
-}
-.ra p{
-	text-align: justify;
-	padding: 10px;
-	padding-top: 10PX;
-	font-size: 25px;
-	background-color: #CCB292;
-	border-radius: 5px;
-	color: #522802;
-}
-
-h1{
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 5px;
-}
-
 /*card*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -264,6 +230,8 @@ h1{
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+
 
 body{
     background: #F1FAFF;
