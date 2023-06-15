@@ -1,7 +1,7 @@
 //Animaciones
 window.sr= ScrollReveal();
 
-sr.reveal('.container__card', {
+sr.reveal('.my-4', {
 	duration: 3000,
     origin: 'bottom',
     distance: '-100px'
